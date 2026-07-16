@@ -15,10 +15,17 @@ evidence the next gate still needs.
 ## What's in this folder
 
 ```
+BACKEND_SPEC.md                The complete backend build spec: schema (20 tables),
+                               RLS matrix, telemetry engine, gate state machine,
+                               SRS scheduling, notifications, webview bridge,
+                               migrations, and the open decisions.
 Designs/
   T Academy - App.dc.html      The full design comp: 35 screens + a home-screen
                                widget set, first run → exam booking, student and
                                tutor sides, annotated board by board.
+  BACKEND_BOARD_BRIEF.md       Brief for Claude Design: render BACKEND_SPEC.md as
+                               an interactive HTML review board (schema explorer,
+                               role lens, simulators, decision sign-off).
 Reference codebase (Frenchwithash)/
   fwa-app/                     The app being re-skinned (code-complete v1).
                                Its README, DEVLOG.md, and docs/ are the deep
