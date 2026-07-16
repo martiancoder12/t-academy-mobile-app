@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Local reference clone of frenchwithash-app — its own repo, contains live
+# credentials (.env, google-services.json). Never commit it.
+Reference codebase (Frenchwithash)/
+
+# Env files (for when the app build lands in this repo)
+.env
+.env.*
+!.env.example
+
+node_modules/
+dist/
+.expo/
